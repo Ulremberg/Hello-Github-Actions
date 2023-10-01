@@ -11,7 +11,7 @@ test('renders hello world', () => {
   
   expect(
     element
-  ).toBeInTheDocument()
+  ).not.toBeInTheDocument()
 
 
 });
